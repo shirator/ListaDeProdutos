@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+header .header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #212529;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.filtersContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navGeral {
+    display: flex;
+}
+
+.estiloGeralBotoes{
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9rem;
+    color: #12B886;
+    margin-right: 15px;
+    background: white;
+    border: 1.5px solid rgba(18, 184, 134, 0.2);
+    border-radius: 8px;
+}
+
+.estiloGeralBotoes:hover {
+    background: #12B886;
+    color: white;
+}
+
+.containerBuscaPorNome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.campoBuscaPorNome {
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    background: #F1F3F5;
+    margin-right: 10px;
+}
+
+.estiloGeralBotoes--botaoBuscaPorNome {
+    background-color:#12B886;
+    color: white;
+    border-radius: 8px;
+}
+
+/* CONTEÚDO */
+
+.containerListaProdutos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerListaProdutos:hover {
+    cursor: pointer;
+}
+
+.containerListaProdutos ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerListaProdutos ul li {
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: ease-in-out .1s;
+    text-align: start;
+}
+
+.containerListaProdutos ul li img {
+    width: 200px;
+    background: #12B886;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.containerListaProdutos ul li h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.containerListaProdutos ul li span {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.containerListaProdutos ul li p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* PREÇO TOTAL */
+.containerPrecoTotal{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+.containerPrecoTotal--text {
+    display: flex;   
+}
+.containerPrecoTotal p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.containerPrecoTotal p span{}
+
+.containerPrecoTotal--text p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212529; 
+}
+
+.containerPrecoTotal .price {
+    background: #212529;
+    color: #FFF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
